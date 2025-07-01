@@ -1,0 +1,12 @@
+# Optional - requires makelove -  https://github.com/pfirsich/makelove
+#                                 pip install makelove
+#                                 makelove --init
+name = "FAFO"
+default_targets = ["win32", "win64"]
+build_directory = "bin"
+
+love_files = [
+    "+*",
+    "-*/.*",
+    "-./bin/*",
+]
